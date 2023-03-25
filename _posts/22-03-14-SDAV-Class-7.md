@@ -23,3 +23,21 @@ Pellentesque mattis dolor sit amet massa efficitur viverra. Morbi vel consectetu
 ## Another subtitle
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor magna sit amet libero blandit, nec pretium ex maximus. Pellentesque non lacus eget massa pellentesque pretium. Integer at mauris vel urna scelerisque hendrerit. Donec quis ante est. Suspendisse luctus tellus risus, ac ullamcorper urna tincidunt sed. Aliquam vitae nisi eget tellus posuere facilisis ac nec risus. Nulla dignissim velit at libero luctus, ac malesuada purus consequat. Nunc consequat blandit risus, sed malesuada nulla efficitur eu. In ornare mauris enim, eu ultricies libero pretium eu. Nullam consequat purus vel mauris facilisis, ac dignissim nisl venenatis. Sed luctus massa eu nisi dignissim, nec congue enim dignissim. Sed in sodales enim.
 
+<iframe src="/assets/flowers.html"
+    sandbox="allow-same-origin allow-scripts"
+    width="100%"
+    height="500"
+    scrolling="no"
+    seamless="seamless"
+    frameborder="0">
+</iframe>
+
+
+
+<embed 
+       type="text/html" 
+       src="/assets/periodic.html"
+       width="1100"
+       height="600"
+       >
+</embed>
