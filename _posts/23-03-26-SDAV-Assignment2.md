@@ -10,6 +10,8 @@ background: '/img/posts/theft.png'
 ## A Closer Look at Daily Theft Averages by District Sheds Light on Crime Patterns and Highlights Need for Action
 San Francisco, CA - In recent years, San Francisco has seen a steady increase in larceny and theft crimes. According to the latest crime statistics, these types of crimes have risen by over 10% in the past year alone. This trend has left many residents feeling concerned about their safety and the security of their personal belongings. In this article, we will explore in depth this rise in crime and what can be done to address it.
 
+> About the Dataset: The dataset being analyzed is comprised of crime records from the city of San Francisco and covers the period from 2003 to 2017. The dataset is being utilized to draw insights and create visualizations related to the nature and frequency of crimes committed in the city during this timeframe. The data may include information such as the type of crime, the location where it occurred, and the date and time it was reported. Through this analysis, the hope is to gain a better understanding of the patterns and trends in crime in San Francisco over the studied period.
+
 ##### Total Theft in San Francisco Time Series
 ![img1](/img/posts/trend.png) 
 
