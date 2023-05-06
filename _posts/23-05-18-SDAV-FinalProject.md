@@ -18,14 +18,14 @@ After the initial lockdown phase in New York City, there were several subsequent
 
 <div style="text-align:center;">
     <iframe title="Timeline: New York City Coronavirus" aria-label="chart" id="datawrapper-chart-moIfo" src="https://datawrapper.dwcdn.net/moIfo/13/" width="750" height="400" frameborder="0"></iframe>
-    <p style="text-align:center;">Timeline: New York City Coronavirus (Source:datawrapper.dwcdn.net) </p>
+    <p style="text-align:center; font-style:italic; color:grey; font-size:12px;">Timeline: New York City Coronavirus (Source:datawrapper.dwcdn.net) </p>
 </div>
 
 The COVID-19 lockdown had a significant impact on transit in New York City. With the closure of non-essential businesses and the implementation of work-from-home policies, ridership on the city's subway system, buses, and commuter rails declined dramatically. According to the Metropolitan Transportation Authority (MTA), subway ridership fell by over 90% during the height of the pandemic in April 2020, while bus ridership declined by around 60%. The MTA also implemented a series of measures to protect the health and safety of riders and employees, including increased cleaning and disinfecting of vehicles and stations, the distribution of masks and hand sanitizer, and the installation of plexiglass barriers to protect bus drivers. Despite these measures, concerns about the risk of transmission on public transit led to a prolonged decline in ridership, with many commuters opting for alternative modes of transportation like biking or driving. However, as the city began to reopen, transit ridership gradually rebounded, with subway ridership reaching around 70% of pre-pandemic levels by the end of 2021.
 
 <div style="text-align:center;">
   <iframe src="/assets/accidents.html" width="750" height="500" frameborder="0"></iframe>
-  <p style="text-align:center;">Total Car Accidents in NYC from July 2012 to May 2023 (Source:NYC Open Data)</p>
+  <p style="text-align:center; font-style:italic; color:grey; font-size:12px;">Total Car Accidents in NYC from July 2012 to May 2023 (Source:NYC Open Data)</p>
 </div>
 
 According to a recent analysis of a timeseries tracking the total number of car accidents, it appears that the COVID-19 pandemic had a significant impact on driving behavior. As expected, there was a sharp drop in the number of car accidents immediately after the lockdown measures were put in place. However, as the restrictions were gradually lifted, there was a small positive slope in the number of car accidents after each phase of flexibilization. Despite these slight increases, the total number of car accidents never returned to pre-COVID levels.
@@ -34,21 +34,32 @@ Further analysis was conducted by comparing a geospatial heatmap of total crashe
 
 <div style="text-align:center;">
   <img src="/img/posts/foliumb&a.png" alt="Folium Before and During Covid" width="100%" height="300" >
-  <p style="text-align:center;"> Folium Visualization with Total Collisions in NYC Before and During Covid(Source:NYC Open Data)</p>
+  <p style="text-align:center; font-style:italic; color:grey; font-size:12px;"> Folium Visualization with Total Collisions in NYC Before and During Covid  (Source:NYC Open Data)</p>
 </div>
 
 To further understand the impact of the pandemic on car accidents, a heatmap of the average crashes per day in each borough was generated. This third visualization highlights the changes in crash patterns over time, with maps for the periods before COVID, during COVID, and after COVID. The heatmap for the period before COVID showed a high concentration of crashes in densely populated areas with heavy traffic, such as the city center. The heatmap for the period during COVID showed a significant decrease in the number of crashes, with a more even distribution of incidents across the boroughs. However, as seen in the timeseries, the heatmap for the period after COVID showed a slight increase in the number of crashes compared to the period during COVID. This increase suggests that some drivers may have returned to pre-pandemic driving habits. Despite this increase, the number of crashes remained lower than pre-COVID levels, indicating the lasting impact of the pandemic on driving behavior and road safety.
 
 <div style="text-align:center;">
   <img src="/img/posts/cloropeth.png" alt="Average Collisions per Day and Boroughs" width="100%" height="300" >
-  <p style="text-align:center;"> Plotly Cloropeth Map with the Average Collisions per Day per NYC’s Boroughs Before, During & After Covid (Source:NYC Open Data)</p>
+  <p style="text-align:center; font-style:italic; color:grey; font-size:12px;"> Plotly Cloropeth Map with the Average Collisions per Day per NYC’s Boroughs Before, During & After Covid (Source:NYC Open Data)</p>
 </div>
 
 One interesting question that arises from these findings is why we did not see a reactivation of crashes after the lockdown ended and everything returned to normal. Despite the gradual lifting of restrictions, the number of car accidents did not reach pre-COVID levels, indicating a sustained shift in driving behavior. What factors may have contributed to this trend? Did drivers become more cautious and safety-conscious as a result of the pandemic, or did they continue to avoid non-essential travel even after restrictions were lifted? Did governments implement new traffic rules or laws to help reduce accidents during the pandemic? Did the pandemic lead to a re-evaluation of road safety policies and practices? 
 
 While there were no specific car restrictions implemented in New York City during the COVID-19 pandemic, the city did make several changes to its streets and transportation infrastructure that had an impact on vehicular traffic. One such change was the implementation of the [Open Streets program](https://www.nyc.gov/html/dot/html/pedestrians/openstreets.shtml#locations), which closed some streets to vehicle traffic and opened them up to pedestrians and cyclists to encourage outdoor activity and social distancing. Another program, known as Open Restaurants, allowed restaurants to use street space for outdoor dining, reducing the number of available parking spaces in some areas. These programs were initially intended as temporary measures to support public health and the local economy during the pandemic, but they have been extended and made permanent in some cases. For example, the Open Streets program was extended through December 2021, and the Open Restaurants program was made permanent with the passage of the NYC Alfresco Dining Program in March 2021. These changes may have had some impact on vehicular traffic and parking availability in certain areas of the city.
 
-Furthermore, the New York City government implemented several new rules and policies regarding traffic and car use after 2020. One notable example is the expansion of the city's speed camera program, which began in 2019 but was significantly expanded in 2020. The program now includes over 1,000 cameras in school zones and other high-risk areas, with the aim of reducing speeding and improving safety for pedestrians and cyclists. Additionally, the city implemented several initiatives to encourage alternative modes of transportation and reduce reliance on cars. These include the expansion of bike lanes and the introduction of new protected bike lanes, the launch of the Citi Bike e-bike program, and the establishment of car-free zones in certain areas of the city. The city also implemented new regulations for delivery vehicles to reduce congestion and improve safety. These include restrictions on the hours during which commercial trucks are allowed to make deliveries in certain areas, as well as new safety requirements for large trucks, such as the installation of side guards and convex mirrors. 
+Furthermore, the New York City government implemented several new rules and policies regarding traffic and car use after 2020. One notable example is the expansion of the city's speed camera program, which began in 2019 but was significantly expanded in 2020. The program now includes over 1,000 cameras in school zones and other high-risk areas, with the aim of reducing speeding and improving safety for pedestrians and cyclists. Additionally, the city implemented several initiatives to encourage alternative modes of transportation and reduce reliance on cars. These include the expansion of bike lanes and the introduction of new protected bike lanes, the launch of the Citi Bike e-bike program, and the establishment of car-free zones in certain areas of the city. The city also implemented new regulations for delivery vehicles to reduce congestion and improve safety. These include restrictions on the hours during which commercial trucks are allowed to make deliveries in certain areas, as well as new safety requirements for large trucks, such as the installation of side guards and convex mirrors. The impact of changes in road safety during the pandemic can be observed in the following two plots. The first plot shows a reduction in the number of pedestrians, cyclists, and motorists who were injured during the analyzed timeframe. The second plot shows a decrease in the number of cyclists and motorists who were killed, but no changes in the number of pedestrian fatalities. 
+
+<div style="text-align:center;">
+  <iframe src="/assets/views_inj2.html" width="100%" height="400" frameborder="0"></iframe>
+  <p style="text-align:center; font-style:italic; color:grey; font-size:12px;">Distribution of Injured by Year and Category (Source: NYC Open Data)</p>
+</div>
+
+<div style="text-align:center;">
+  <iframe src="/assets/views_kill2.html" width="100%" height="400" frameborder="0"></iframe>
+  <p style="text-align:center; font-style:italic; color:grey; font-size:12px;">Distribution of Killed by Year and Category (Source: NYC Open Data)</p>
+</div>
+
 
 Finally, the city has also introduced new policies to address equity and environmental concerns related to transportation. For example, the city's Congestion Pricing program, which is set to launch in 2023, will charge drivers a fee to enter certain areas of Manhattan, with the aim of reducing congestion and raising funds for public transportation improvements. The city has also implemented new regulations for ride-hailing services like Uber and Lyft, requiring them to pay a minimum wage to drivers and reducing the number of new licenses issued to these services.
 

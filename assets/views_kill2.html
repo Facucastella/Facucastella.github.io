@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Bokeh Plot</title>
+    <style>
+      html, body {
+        box-sizing: border-box;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-3.1.0.min.js"></script>
+    <script type="text/javascript">
+        Bokeh.set_log_level("info");
+    </script>
+  </head>
+  <body>
+    <div id="ecac29e6-eee8-42e3-a868-a6604232251c" data-root-id="p160973" style="display: contents;"></div>
+  
+    <script type="application/json" id="p164542">
+      {"eb551d12-e379-4de0-ba65-d124fea63ec0":{"version":"3.1.0","title":"Bokeh Application","defs":[],"roots":[{"type":"object","name":"Figure","id":"p160973","attributes":{"width":800,"height":350,"x_range":{"type":"object","name":"FactorRange","id":"p160972","attributes":{"factors":[["NUMBER OF PEDESTRIANS KILLED","2012"],["NUMBER OF PEDESTRIANS KILLED","2013"],["NUMBER OF PEDESTRIANS KILLED","2014"],["NUMBER OF PEDESTRIANS KILLED","2015"],["NUMBER OF PEDESTRIANS KILLED","2016"],["NUMBER OF PEDESTRIANS KILLED","2017"],["NUMBER OF PEDESTRIANS KILLED","2018"],["NUMBER OF PEDESTRIANS KILLED","2019"],["NUMBER OF PEDESTRIANS KILLED","2020"],["NUMBER OF PEDESTRIANS KILLED","2021"],["NUMBER OF PEDESTRIANS KILLED","2022"],["NUMBER OF CYCLIST KILLED","2012"],["NUMBER OF CYCLIST KILLED","2013"],["NUMBER OF CYCLIST KILLED","2014"],["NUMBER OF CYCLIST KILLED","2015"],["NUMBER OF CYCLIST KILLED","2016"],["NUMBER OF CYCLIST KILLED","2017"],["NUMBER OF CYCLIST KILLED","2018"],["NUMBER OF CYCLIST KILLED","2019"],["NUMBER OF CYCLIST KILLED","2020"],["NUMBER OF CYCLIST KILLED","2021"],["NUMBER OF CYCLIST KILLED","2022"],["NUMBER OF MOTORIST KILLED","2012"],["NUMBER OF MOTORIST KILLED","2013"],["NUMBER OF MOTORIST KILLED","2014"],["NUMBER OF MOTORIST KILLED","2015"],["NUMBER OF MOTORIST KILLED","2016"],["NUMBER OF MOTORIST KILLED","2017"],["NUMBER OF MOTORIST KILLED","2018"],["NUMBER OF MOTORIST KILLED","2019"],["NUMBER OF MOTORIST KILLED","2020"],["NUMBER OF MOTORIST KILLED","2021"],["NUMBER OF MOTORIST KILLED","2022"]],"range_padding":0.1}},"y_range":{"type":"object","name":"DataRange1d","id":"p160975","attributes":{"start":0}},"x_scale":{"type":"object","name":"CategoricalScale","id":"p160986"},"y_scale":{"type":"object","name":"LinearScale","id":"p160988"},"title":{"type":"object","name":"Title","id":"p160976","attributes":{"text":"Distribution of Killed by Year and Category"}},"renderers":[{"type":"object","name":"GlyphRenderer","id":"p161011","attributes":{"data_source":{"type":"object","name":"ColumnDataSource","id":"p160969","attributes":{"selected":{"type":"object","name":"Selection","id":"p160970","attributes":{"indices":[],"line_indices":[]}},"selection_policy":{"type":"object","name":"UnionRenderers","id":"p160971"},"data":{"type":"map","entries":[["x",[["NUMBER OF PEDESTRIANS KILLED","2012"],["NUMBER OF PEDESTRIANS KILLED","2013"],["NUMBER OF PEDESTRIANS KILLED","2014"],["NUMBER OF PEDESTRIANS KILLED","2015"],["NUMBER OF PEDESTRIANS KILLED","2016"],["NUMBER OF PEDESTRIANS KILLED","2017"],["NUMBER OF PEDESTRIANS KILLED","2018"],["NUMBER OF PEDESTRIANS KILLED","2019"],["NUMBER OF PEDESTRIANS KILLED","2020"],["NUMBER OF PEDESTRIANS KILLED","2021"],["NUMBER OF PEDESTRIANS KILLED","2022"],["NUMBER OF CYCLIST KILLED","2012"],["NUMBER OF CYCLIST KILLED","2013"],["NUMBER OF CYCLIST KILLED","2014"],["NUMBER OF CYCLIST KILLED","2015"],["NUMBER OF CYCLIST KILLED","2016"],["NUMBER OF CYCLIST KILLED","2017"],["NUMBER OF CYCLIST KILLED","2018"],["NUMBER OF CYCLIST KILLED","2019"],["NUMBER OF CYCLIST KILLED","2020"],["NUMBER OF CYCLIST KILLED","2021"],["NUMBER OF CYCLIST KILLED","2022"],["NUMBER OF MOTORIST KILLED","2012"],["NUMBER OF MOTORIST KILLED","2013"],["NUMBER OF MOTORIST KILLED","2014"],["NUMBER OF MOTORIST KILLED","2015"],["NUMBER OF MOTORIST KILLED","2016"],["NUMBER OF MOTORIST KILLED","2017"],["NUMBER OF MOTORIST KILLED","2018"],["NUMBER OF MOTORIST KILLED","2019"],["NUMBER OF MOTORIST KILLED","2020"],["NUMBER OF MOTORIST KILLED","2021"],["NUMBER OF MOTORIST KILLED","2022"]]],["counts",{"type":"ndarray","array":{"type":"bytes","data":"SAAAALAAAACFAAAAhQAAAJUAAAB/AAAAewAAAIMAAABlAAAAgQAAAIQAAAAGAAAACwAAABQAAAAPAAAAEgAAABsAAAAKAAAAHwAAAB0AAAATAAAAEgAAADsAAABuAAAAbQAAAF8AAABIAAAAawAAAGIAAABSAAAAigAAAIYAAABzAAAA"},"shape":[33],"dtype":"int32","order":"little"}]]}}},"view":{"type":"object","name":"CDSView","id":"p161012","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p161013"}}},"glyph":{"type":"object","name":"VBar","id":"p161008","attributes":{"x":{"type":"field","field":"x"},"width":{"type":"value","value":0.9},"top":{"type":"field","field":"counts"},"line_color":{"type":"value","value":"white"},"fill_color":{"type":"field","field":"x","transform":{"type":"object","name":"CategoricalColorMapper","id":"p161004","attributes":{"palette":["#0072B2","#E69F00","#F0E442","#009E73","#56B4E9"],"factors":["NUMBER OF CYCLIST KILLED","NUMBER OF MOTORIST KILLED","NUMBER OF PEDESTRIANS KILLED"],"end":1}}}}},"nonselection_glyph":{"type":"object","name":"VBar","id":"p161009","attributes":{"x":{"type":"field","field":"x"},"width":{"type":"value","value":0.9},"top":{"type":"field","field":"counts"},"line_color":{"type":"value","value":"white"},"line_alpha":{"type":"value","value":0.1},"fill_color":{"type":"field","field":"x","transform":{"id":"p161004"}},"fill_alpha":{"type":"value","value":0.1},"hatch_alpha":{"type":"value","value":0.1}}},"muted_glyph":{"type":"object","name":"VBar","id":"p161010","attributes":{"x":{"type":"field","field":"x"},"width":{"type":"value","value":0.9},"top":{"type":"field","field":"counts"},"line_color":{"type":"value","value":"white"},"line_alpha":{"type":"value","value":0.2},"fill_color":{"type":"field","field":"x","transform":{"id":"p161004"}},"fill_alpha":{"type":"value","value":0.2},"hatch_alpha":{"type":"value","value":0.2}}}}}],"toolbar":{"type":"object","name":"Toolbar","id":"p160980","attributes":{"tools":[{"type":"object","name":"HoverTool","id":"p161014","attributes":{"renderers":"auto","tooltips":[["Info","@x"],["Total Incidents","@counts"]]}}]}},"toolbar_location":null,"left":[{"type":"object","name":"LinearAxis","id":"p160996","attributes":{"ticker":{"type":"object","name":"BasicTicker","id":"p160997","attributes":{"mantissas":[1,2,5]}},"formatter":{"type":"object","name":"BasicTickFormatter","id":"p160998"},"axis_label":"Total # of Accidents","major_label_policy":{"type":"object","name":"AllLabels","id":"p160999"}}}],"below":[{"type":"object","name":"CategoricalAxis","id":"p160990","attributes":{"ticker":{"type":"object","name":"CategoricalTicker","id":"p160991"},"formatter":{"type":"object","name":"CategoricalTickFormatter","id":"p160992"},"axis_label":"Years grouped by Type of Accident","major_label_orientation":1,"major_label_policy":{"type":"object","name":"AllLabels","id":"p160993"}}}],"center":[{"type":"object","name":"Grid","id":"p160995","attributes":{"axis":{"id":"p160990"},"grid_line_color":null}},{"type":"object","name":"Grid","id":"p161002","attributes":{"dimension":1,"axis":{"id":"p160996"}}}]}}],"callbacks":{"type":"map"}}}
+    </script>
+    <script type="text/javascript">
+      (function() {
+        const fn = function() {
+          Bokeh.safely(function() {
+            (function(root) {
+              function embed_document(root) {
+              const docs_json = document.getElementById('p164542').textContent;
+              const render_items = [{"docid":"eb551d12-e379-4de0-ba65-d124fea63ec0","roots":{"p160973":"ecac29e6-eee8-42e3-a868-a6604232251c"},"root_ids":["p160973"]}];
+              root.Bokeh.embed.embed_items(docs_json, render_items);
+              }
+              if (root.Bokeh !== undefined) {
+                embed_document(root);
+              } else {
+                let attempts = 0;
+                const timer = setInterval(function(root) {
+                  if (root.Bokeh !== undefined) {
+                    clearInterval(timer);
+                    embed_document(root);
+                  } else {
+                    attempts++;
+                    if (attempts > 100) {
+                      clearInterval(timer);
+                      console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                    }
+                  }
+                }, 10, root)
+              }
+            })(window);
+          });
+        };
+        if (document.readyState != "loading") fn();
+        else document.addEventListener("DOMContentLoaded", fn);
+      })();
+    </script>
+  </body>
+</html>
